@@ -2,9 +2,9 @@
 /**
  * main - Entry Point
  *
+ * Description: returnserror
  *
- *
- * return: Returns 1 (Error in execution)
+ * Return: Returns 1 (Error in execution)
  */
 int main(void)
 {
