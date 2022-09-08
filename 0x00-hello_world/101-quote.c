@@ -2,12 +2,13 @@
 /**
  * main - Entry Point
  *
- * fwrite - Prints to std file
+ * 
  *
- * return - Returns 0 (Success)
+ * return - Returns 1 (Success)
  */
 int main(void)
 {
-	fwrite("and that piece of art is useful\" - Dora Korpar, 2015-10-19\n", stderr);
-	return (0);
+	printf("and that piece of art is useful\" - Dora Korpar, 2015-10-19");
+	printf("\n");
+	return (1);
 }
