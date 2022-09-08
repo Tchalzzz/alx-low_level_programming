@@ -2,11 +2,7 @@
 /**
  * main - Entry point
  *
- * @inte - Holds integer data
- * @lint - Holds long integer
- * @llint- Holds long long integer type
- * @flo  - Holds float data type
- * @char - Holds character data
+ * 
  * Return: Always 0 (Success)
  */
 int main(void)
