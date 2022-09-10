@@ -6,11 +6,11 @@
  */
 int main(void)
 {
-	int c, j;
+	int c, i;
 
 	for (c = '0'; i <= 9; i++)
 	{
-		for (i = '0'; j <= 58; i++)
+		for (i = '0'; i <= '9'; i++)
 		{
 			if (c < i)
 			{
