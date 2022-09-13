@@ -14,7 +14,7 @@ int main(void)
 
 	for (i = 0; i < lenVar - 1; i++)
 	{
-		_putchar([var]);
+		_putchar(var[i]);
 	}
 		_putchar('\n');
 	return (0);
