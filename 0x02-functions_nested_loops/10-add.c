@@ -1,4 +1,4 @@
-#include "main.c"
+#include "main.hh"
 /**
  * add - adds two integers and returns the result
  *
