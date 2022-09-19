@@ -1,4 +1,4 @@
-3include "main.c"
+#include "main.h"
 
 /**
  * *_strcpy - copy the string pointed to by the pointer
