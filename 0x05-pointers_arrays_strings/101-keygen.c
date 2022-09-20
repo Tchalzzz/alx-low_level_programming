@@ -1,14 +1,14 @@
 #include <stdio.h>
-#include <<stdlib.h>
+#include <stdlib.h>
 #include <time.h>
 
 /**
- * main - generates password for 101 crackk me
- * Return 0 -Success
+ * main - generates random password for 101-crack me
+ * Return: 0 - Success
  */
-int mai(void)
+int main(void)
 {
-	iint sum;
+	int sum;
 	char c;
 
 	srand(time(NULL));
@@ -16,7 +16,7 @@ int mai(void)
 	{
 		c = rand() % 128;
 		sum += c;
-		putchar (c);
+		putchar(c);
 	}
 	putchar(2772 - sum);
 	return (0);
