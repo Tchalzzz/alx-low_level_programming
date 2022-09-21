@@ -47,7 +47,7 @@ void printASCII(char *b, int start, int end)
 	while (i < end)
 	{
 		ch = *(b + i + start);
-		if(!isPrintableASCII(ch))
+		if (!isPrintableASCII(ch))
 			ch = 46;
 		printf("%c", ch);
 		i++;
