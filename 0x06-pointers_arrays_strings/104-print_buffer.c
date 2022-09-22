@@ -19,7 +19,7 @@ isPrintableASCII(int n)
  */
 void printHexes(char *b, int start, int end)
 {
-	int i;
+	int i = 0;
 
 	while (i  < 10)
 	{
