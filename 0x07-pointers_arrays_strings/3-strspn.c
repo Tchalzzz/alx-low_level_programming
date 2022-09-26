@@ -1,11 +1,12 @@
 #include "main.h"
 
 /**
- * _strspn - gets the length oa prefix substring
- * @index: index of the array
- * @bytes: number of bytes to
+ * _strspn - gets the length of a prefix substring
+ * @s: The string to be searched
+ * @accept: The prefix to be measured
  *
- * Return: Returns byes
+ * Return: The number of bytes in s which consists
+ * of only bytes from accept
  */
 
 unsigned int _strspn(char *s, char *accept)
@@ -13,7 +14,7 @@ unsigned int _strspn(char *s, char *accept)
 	unsigned int bytes = 0;
 	int index;
 
-	while(*s)
+	while (*s)
 	{
 		for (index = 0; accept[index]; index++)
 		{
