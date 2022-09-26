@@ -10,9 +10,10 @@
  * if the substring is not located - NULL
  */
 
-char *(char *haystack, char *needle)
+char *_strstr(char *haystack, char *needle)
 {
 	int index;
+
 	if (*needle == 0)
 		return (haystack);
 	while (*haystack)
@@ -20,7 +21,7 @@ char *(char *haystack, char *needle)
 		index = 0;
 		if (haystack[index] == needle[index])
 		{
-			do { 
+			do {
 				if (needle[index + 1] == '\0')
 					return (haystack);
 				index++;
