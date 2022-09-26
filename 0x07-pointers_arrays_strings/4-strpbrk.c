@@ -9,7 +9,7 @@
  * if no set is matched - NULL
  */
 
-char *_strp(char *s, char *accept)
+char *_strpbrk(char *s, char *accept)
 {
 	int index;
 
