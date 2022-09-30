@@ -3,7 +3,7 @@
 
 /*
  * File: main.h
- * Author: Effioong Ekpe
+ * Author: Effiong Ekpe
  * Description: Headre file containing the description of all the functions
  * included in the static library libholberton.a
  */
