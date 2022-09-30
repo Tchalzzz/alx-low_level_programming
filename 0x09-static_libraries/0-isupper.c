@@ -1,5 +1,11 @@
 #include "main.h"
 
-int _putchar(char c)
+/**
+ * _isupper - prints
+ * @c: integer
+ */
+
+int _isupper(int c)
 {
+
 }
