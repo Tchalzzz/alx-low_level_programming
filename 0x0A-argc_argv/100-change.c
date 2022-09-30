@@ -21,7 +21,7 @@ int main(int argc, char *argv[])
 		return (1);
 	}
 
-	total = atoi(argv[i]);
+	total = atoi(argv[1]);
 
 	if (total <= 0)
 	{
