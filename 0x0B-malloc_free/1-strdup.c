@@ -1,6 +1,6 @@
 #include "main.h"
 #include <stdlib.h>
-#include <stdio.>
+#include <stdio.h>
 
 /**
  * *_strdup - return a pointer to a newly allocated
