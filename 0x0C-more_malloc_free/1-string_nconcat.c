@@ -18,7 +18,7 @@ unsigned int _strlen(char *s)
 
 /**
  * *string_nconcat - concatenates two strings
- * @s: the first string
+ * @s1: the first string
  * @s2: the second string
  * @n: first bytes of s2 to be used
  * Return: Pointer or Null
