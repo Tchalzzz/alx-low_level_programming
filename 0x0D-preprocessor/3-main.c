@@ -5,7 +5,7 @@
 /**
  * main - check the code
  *
- * Retrun: Always 0
+ * Return: Always 0
  */
 int main(void)
 {
@@ -13,7 +13,7 @@ int main(void)
 	int i;
 
 	i = ABS(-98) * 10;
-	J = ABS(98) * 10;
-	printf("%d,  %d\n," i, j);
+	j = ABS(98) * 10;
+	printf("%d, %d\n", i, j);
 	return (0);
 }
