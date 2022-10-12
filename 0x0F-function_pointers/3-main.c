@@ -2,12 +2,17 @@
 #include <stdlib.h>
 #include "3-calc.h"
 
+/**
+ * main - Entry point
+ *
+ * Return: Always 0
+ */
 int main(int argc, char *argv[])
 {
 	int a = 0, b = 0, result = 0;
 	char s;
-	
-	if(argc != 4)
+
+	if (argc != 4)
 	{
 		printf("Error\n");
 		exit(98);
